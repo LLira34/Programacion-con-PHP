@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+img{
+	height: 40px;
+	width: 40px;
+}
+
+/**
+ * Aplicando al icono de usuario el color de fondo,
+ * rellenado de 20px y un redondeado de 120px en forma
+ * de un circulo
+ */
+.Icon span{
+	background: #79589f;
+	padding: 20px;
+	border-radius: 120px;
+}
+/**
+ * Se aplica al cotenedor madre un margen de tamño 10px hacia la cabecera y pie,
+ * color de fuente blanco,un tamño de fuente 50px y texto centrado.
+ */
+.Icon{
+	margin-top: 10px;
+	margin-bottom:10px; 
+    color: #FFF;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* ===== Estilo para los mensajes de alerta ==== */
+.message{
+	display: none; 
+    position: fixed; 
+    z-index: 1; 
+	padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+	line-height: normal;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	transition: opacity .2s,-webkit-transform .3s;
+	transition: transform .3s,opacity .2s;
+	transition: transform .3s,opacity .2s,-webkit-transform .3s;
+}
+
+.message > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #fff);
+	background: -webkit-linear-gradient(#fff, #fff);
+	background: -o-linear-gradient(#fff, #fff);
+	text-align: center;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.message > div > p{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/*##################*/
+
+
+/* 
+	Estilo creados para el pie de pagina o footer
+	Diseño basado en GitHub
+	Inicio de los estilos
+ */
+.px-3 {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+.container-lg {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.d-flex {
+    display: flex !important;
+}
+.f6 {
+    font-size: 12px !important;
+}
+.pt-6 {
+    padding-top: 40px !important;
+}
+.pb-2 {
+    padding-bottom: 8px !important;
+}
+.mt-6 {
+    margin-top: 40px !important;
+}
+.position-relative {
+    position: relative !important;
+}
+.flex-justify-between {
+    justify-content: space-between !important;
+}
+.text-gray {
+    color: #586069 !important;
+}
+.border-gray-light {
+    border-color: #eaecef !important;
+}
+.border-top {
+    border-top: 1px #e1e4e8 solid !important;
+	border-top-color: rgb(225, 228, 232);
+}
+
+.d-flex {
+    display: flex !important;
+}
+.list-style-none {
+    list-style: none !important;
+}
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+ul, ol {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Fin de los estilos del footer */
